@@ -1,0 +1,26 @@
+.textarea-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.textarea {
+    box-sizing: border-box;
+    width: 25vw!important;
+    max-width: 25vw;
+    min-height: 20px;
+    height: 20px;
+    line-height: 20px;
+    /*max-height: 120px;*/
+    /*resize: none;*/
+    font-size: 16px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #25bcde;
+    outline: none;
+    background-color: #f1f1f1;
+    color: brown;
+    overflow-y: hidden;
+}
